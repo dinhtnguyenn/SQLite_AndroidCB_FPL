@@ -19,6 +19,11 @@ public class SanPhamSQLite extends SQLiteOpenHelper {
                 "tensp TEXT, giasp integer, hinhsp TEXT)";
         sqLiteDatabase.execSQL(sql);
         //...
+
+        String sqlInsert = "INSERT INTO SANPHAM VALUES(1, 'Sản phẩm A', 1000, 'hinh.jpg')," +
+                            "(2, 'Sản phẩm B', 3000, 'hinh.jpg')," +
+                            "(3, 'Sản phẩm C', 2000, 'hinh.jpg')";
+        sqLiteDatabase.execSQL(sqlInsert);
     }
 
     @Override

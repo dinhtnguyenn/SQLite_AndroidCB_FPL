@@ -11,7 +11,7 @@
         android:id="@+id/edtTenSP"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Tên sản phẩm" />
+        android:hint="Tên SP" />
 
     <EditText
         android:id="@+id/edtGiaSP"
